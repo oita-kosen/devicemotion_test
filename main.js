@@ -15,7 +15,7 @@ var timer = window.setInterval(() => {
 // データを表示する displayData 関数
 function displayData() {
     var txt = document.getElementById("txt");   // データを表示するdiv要素の取得
-    txt.innerHTML = "x: " + alpha + "<br>"         // x軸の値
-                  + "y: " + beta + "<br>"         // y軸の値
-                  + "z: " + gamma;                 // z軸の値
+    txt.innerHTML = "alpha": " + alpha + "<br>"         // x軸の値
+                  + "beta: " + beta + "<br>"         // y軸の値
+                  + "gamma: " + gamma;                 // z軸の値
 }
